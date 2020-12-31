@@ -31,4 +31,4 @@ jobs:
           mvn clean test \
             -Dtestops.apiKey=${{ secrets.TESTOPS_API_KEY }} \
             -Dtestops.serverUrl=https://testops.staging.katalon.com \
-            -Dtestops.projectId=68608
+            -Dtestops.projectId=68614
