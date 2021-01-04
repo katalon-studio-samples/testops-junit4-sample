@@ -1,4 +1,4 @@
-# TestOps TestNG
+# TestOps Junit4
 https://github.com/katalon-studio/testops-junit4
 
 # Run test
