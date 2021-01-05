@@ -1,3 +1,5 @@
+package com.katalon.testops.junit;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
