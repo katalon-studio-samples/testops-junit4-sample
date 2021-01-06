@@ -43,7 +43,6 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
                     <properties>
                         <property>
                             <name>listener</name>
