@@ -50,6 +50,7 @@
                             <value>com.katalon.testops.junit.reporter.ReportListener</value>
                         </property>
                     </properties>
+                    <reportsDirectory>${env.KATALON_OUTPUT_DIR}</reportsDirectory>
                 </configuration>
             </plugin>
             <plugin>
