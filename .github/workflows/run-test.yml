@@ -30,7 +30,9 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/pom.xml') }}
 
       - name: Run test
+        env:
+          TESTOPS_SERVER_URL: https://testops.staging.katalon.com
+          TESTOPS_API_KEY: ${{ secrets.TESTOPS_API_KEY }}
+          TESTOPS_PROJECT_ID: 68614
         run: |
-          mvn clean test \
-            -Dtestops.server-url=https://testops.staging.katalon.com \
-            -Dtestops.project-id=68614
+          mvn clean test
