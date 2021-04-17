@@ -62,4 +62,9 @@ public class CalculatorJunit4Test {
     public void divideByZeroIncomplete() {
         calculator.divide(365, 0);
     }
+
+    @Test
+    public void divideAssertFailed() {
+        assertEquals(300, calculator.divide(365, 10), 0);
+    }
 }
